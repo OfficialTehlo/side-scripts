@@ -1,5 +1,3 @@
-
-                                                                                                                                                                  
 echo "What is the domain name you want to use? (subdomain + domain)"                                                                                                                   
 read ccdomain                                                                                                                                                     
                                                                                                                                                                   
