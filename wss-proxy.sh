@@ -5,10 +5,6 @@ echo "What is the domain or IP address you want to proxy? (IP and port)"
 read ccip                                                                                                                                                         
                                                                                                                                                                   
 echo " 
-map $http_upgrade $connection_upgrade {
-  default upgrade;
-  '' close;
-}
 upstream websocket {
    server $ccip;
 }
